@@ -1,0 +1,122 @@
+*{box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Logo-header{
+    position: relative;
+    left: 51px;
+    top: 12px;
+    width: 273px;
+    height: 100px; 
+    
+}
+
+.find-your-friend-buscador{
+    position: relative;
+    top: 8px;
+    left: 118px;
+    height: 38px;
+    width: 220px;
+    font-family: acumin-pro-extra-condensed,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 28px ;
+    line-height: 34px;
+    margin: 0px;
+    color: #3663AD;
+}
+
+.Ash{
+    position: relative;
+    top: 280px;
+    left: 15px;
+    width: 187.6px;
+    height: 345px;
+}
+
+
+body {
+  background-color:#24292e;
+}
+
+.field {
+  display:flex;
+  position:relative;
+  top: 70px;
+  left: 38px;
+  width:70%;
+  flex-direction:row;
+}
+
+.field>input[type=text],
+.field>button {
+  display:block;
+  font:1.2em 'Montserrat Alternates';
+}
+
+.field>input[type=text] {
+  flex:1;
+  padding:0.6em;
+  border:0.2em solid rgb(0, 0, 0);
+}
+
+.field>button {
+  padding:0.6em 0.8em;
+  background-color:rgb(0, 0, 0);
+  color:white;
+  border:none;
+}
+
+#searchterm{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 40px;
+    outline: none;
+    background-color: #24292e;
+    border-color: #3663AD ;
+}
+
+#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 40px;
+    width: 38px;
+    cursor: pointer;
+    background-color: #3663AD;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+.pokeBall{
+    width: 35px;
+    height: 40px;
+}
+
+p{
+  margin: 0%;
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+.comentario{
+    position: relative;
+    left: 200px;
+    bottom: 150px;
+    width: 140px;
+    height: 100px;
+    border: #3663AD 2px solid;
+    border-radius: 5px;
+    background-color: #3663AD;
+}
+
