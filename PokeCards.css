@@ -18,19 +18,43 @@ p{
 .nombre-pokemon{
     position: relative;
     left: 31px;
-    top: 45px;
-    border: red 2px solid;
+    top: 35px;
     width: 176px;
     height: 64px;
+    font-family: Acumin Pro ExtraCondensed,sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 60px;
+    line-height: 86px;
+    color: #3663AD;
+}
+
+.codigo-pokemon{
+    position: absolute;
+    width: 79px;
+    height: 22px;
+    left: 34px;
+    top: 72px;
+    font-family: Acumin Pro ExtraCondensed,sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 22px;
+    color: #3663AD;
 }
 
 .numero-pokemon{
     position: relative;
     Width: 79px;
     Height: 22px;
-    Top: 36px;
-    Left: 34px;
-    border: red 2px solid;
+    Top: 52px;
+    Left: 115px;
+    font-family: Acumin Pro ExtraCondensed,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3663AD;
 }
 
 .contenedor-stats{
@@ -72,13 +96,53 @@ p{
     left: 35px;
 }
 
+.nameJapon{
+    position: relative;
+    top: 100px;
+    left: 65px;
+    width: 70px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.nameChina{
+    position: relative;
+    top: 90px;
+    left: 65px;
+    width: 70px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.nameFrancia{
+    position: relative;
+    top: 79px;
+    left: 65px;
+    width: 70px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+
+}
+
 .img-pokemon{
     position: absolute;
-    width: 310px;
-    height: 300px;
-    top: 95px;
-    left: 58px;
-    border: red 2px solid;
+    top: 180px;
+    left: 160px;
     z-index: 2;
 }
 
@@ -89,7 +153,7 @@ p{
     left: 30px;
     top: 393px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
+    font-style: italic;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px; 
@@ -280,40 +344,18 @@ p{
     opacity: 50%;
 }
 
-.nameJapon{
-    position: relative;
-    top: 100px;
-    left: 65px;
-    width: 70px;
-    height: 19px;
-    border: red 2px solid;
-}
-
-.nameChina{
-    position: relative;
-    top: 90px;
-    left: 65px;
-    width: 70px;
-    height: 19px;
-    border: red 2px solid;
-}
-
-.nameFrancia{
-    position: relative;
-    top: 79px;
-    left: 65px;
-    width: 70px;
-    height: 19px;
-    border: red 2px solid;
-}
-
 .detalle-HP{
     position: absolute;
     width: 35px;
     height: 6px;
     left: 245px;
-    top: 560px;
-    border: red 2px solid;
+    top: 556px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -322,8 +364,13 @@ p{
     width: 55px;
     height: 6px;
     left: 245px;
-    top: 588px;
-    border: red 2px solid;
+    top: 585px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -332,8 +379,13 @@ p{
     width: 40px;
     height: 6px;
     left: 245px;
-    top: 618px;
-    border: red 2px solid;
+    top: 615px;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 
 }
@@ -344,7 +396,12 @@ p{
     height: 6px;
     left: 245px;
     top: 645px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 
 }
@@ -355,7 +412,12 @@ p{
     height: 6px;
     left: 245px;
     top: 673px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 
 }
@@ -366,7 +428,12 @@ p{
     height: 6px;
     left: 245px;
     top: 700px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 
 }
@@ -377,7 +444,12 @@ p{
     height: 14px;
     left: 30px;
     top: 417px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -387,7 +459,13 @@ p{
     height: 19px;
     left: 148px;
     top: 398px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -395,9 +473,14 @@ p{
     position: absolute;
     width: 39px;
     height: 14px;
-    left: 56px;
+    left: 33px;
     top: 533px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 }
 
@@ -407,8 +490,13 @@ p{
     height: 14px;
     left: 30px;
     top: 609px;
-    border: red 2px solid;
-    z-index: 2;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    z-index: 3;
 }
 
 .detalle-de-altura{
@@ -417,7 +505,12 @@ p{
     height: 14px;
     left: 30px;
     top: 710px;
-    border: red 2px solid;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
     z-index: 2;
 }
 
